@@ -9,6 +9,7 @@ public class Client {
     private PrintWriter out;
 
     public Client(String host, int port) {
+        
         this.host = host;
         this.port = port;
        
