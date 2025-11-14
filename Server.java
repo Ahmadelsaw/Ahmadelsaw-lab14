@@ -7,6 +7,7 @@ public class Server {
     private final int port;
     private ServerSocket serverSocket;
 
+
     // Stores connection timestamps
     private final List<LocalDateTime> connectedTimes = new ArrayList<>();
     
